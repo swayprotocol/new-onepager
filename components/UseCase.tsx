@@ -5,7 +5,7 @@ export const UseCase = () => (
         <h2>USE CASE</h2>
 
         <div className='col-12 col-md-4'>
-          <img src='/assets/Nft-marketplace.jpg' alt='NFT Marketplace' />
+          <img src='/assets/NFT-marketplace.jpg' alt='NFT Marketplace' />
           <h3>NFT Marketplaces</h3>
           <p className='italic'>Replace “Like” with “Stake” and put your native token to work</p>
           <p>Introducing PSPs to each user profile and allowing other users to stake with them. </p>
@@ -13,7 +13,7 @@ export const UseCase = () => (
         </div>
 
         <div className='col-12 col-md-4'>
-          <img src='/assets/Nft-collections.jpg' alt='NFT Collections' />
+          <img src='/assets/NFT-collections.jpg' alt='NFT Collections' />
           <h3>NFT Collections</h3>
           <p className='italic'>Establish trust and reward your earliest community</p>
           <p>The success of NFT collection drops is closely tied to the health of the community supporting it from the get-go.</p>
