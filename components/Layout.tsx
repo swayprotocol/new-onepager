@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
+import Script from 'next/script';
 
 type Props = {
   children?: ReactNode
@@ -14,6 +15,20 @@ const meta = {
 
 const Layout = ({ children }: Props) => (
   <>
+    <Script async src='https://www.googletagmanager.com/gtag/js?id=G-7G8R318EBC' />
+    <Script
+      id="gtag"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7G8R318EBC');
+        `,
+      }}
+    />
+    
     <Head>
       <meta httpEquiv="content-type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
