@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Chains = () => (
   <section className='sway-chains-section'>
     <div className='container'>
@@ -21,8 +23,16 @@ export const Chains = () => (
               <p>0x262B8AA7542004f023B0eB02bc6b96350A02b728</p>
               <p>18</p>
             </div>
-            <div className='col-12 offset-md-2 col-md-10 mt-3 d-flex d-md-block justify-content-center'>
-              <img src='/assets/sway/Listed.png' alt='Listed on' />
+            <div className='offset-md-2 col-md-10 mt-3'>
+              <div className='listed-container'>
+                <p>Listed on</p>
+                <Link href='https://www.gate.io/trade/SWAY_USDT' target='_blank'>
+                  <img src='/assets/sway/GateIo.jpg' alt='Gate.io' />
+                </Link>
+                <Link href='https://quickswap.exchange/' target='_blank'>
+                  <img src='/assets/sway/Quickswap.jpg' alt='Quickswap' />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
