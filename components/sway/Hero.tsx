@@ -2,7 +2,7 @@ export const Hero = () => (
   <section className='sway-hero-section'>
     <div className='container'>
       <div className='row'>
-        <div className='col-12 col-md-5 mx-auto'>
+        <div className='col-12 col-md-6 offset-md-4'>
           <div className='titleContainer'>
             <img src='/assets/sway/Sway.png' alt='Sway social token'/>
             <h1 className='text-center'><span>Sway Social</span> token</h1>

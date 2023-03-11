@@ -34,10 +34,10 @@ export const UseCase = () => {
       <div className='dotsContainer'>
         <div className='d-flex'>
           {useCases.map((item,index)=>{
-            return <div key={index} className={index===current ? 'activeDot' : 'dot'}></div>
+            return <div key={index} className={index===current ? 'activeDot' : 'dot'} onClick={()=>setCurrent(index)}></div>
           })}
         </div>
-        <img className='d-block d-lg-none' src='/assets/sway/Next-mobile.png' alt='Next arrow' onClick={handleNext}/>
+        <img className='d-block d-lg-none nextImageMobile' src='/assets/sway/Next-mobile.png' alt='Next arrow' onClick={handleNext}/>
       </div>
     )
 
@@ -58,7 +58,7 @@ export const UseCase = () => {
                 {renderDots()}
               </div>
               <div className='d-none d-lg-flex col-lg-1 justify-content-center align-items-center' onClick={handleNext}>
-                <img src='/assets/sway/Next.png' alt='Next arrow' />
+                <img className='nextImage' src='/assets/sway/Next.png' alt='Next arrow' />
               </div>
             </div>
           </div>

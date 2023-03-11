@@ -31,12 +31,12 @@ export const Navbar = () => {
             <Link href='/token' target='_blank'>
               <span><img src='/assets/Sway-icon.png' width='15px' height='15px' />Token</span>
             </Link>
-
-            <Link className='short' href='https://t.me/swayprotocol'>
-              <Telegram width='24px' height='24px'/>
+            
+            <Link className='short' href='https://t.me/swayprotocol' target='_blank'>
+              <Telegram width={32} height={32} />
             </Link>
-            <Link className='short' href='https://twitter.com/swayprotocol'>
-              <Twitter width='24px' height='24px' />
+            <Link className='short' href='https://twitter.com/swayprotocol' target='_blank'>
+              <Twitter width={32} height={32} />
             </Link>
           </div>
 

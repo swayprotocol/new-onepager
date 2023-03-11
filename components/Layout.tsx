@@ -7,8 +7,8 @@ type Props = {
 }
 
 const meta = {
-  title: 'SocialFi for the Metaverse | Sway Social',
-  description: 'Sway Social is the first social media protocol for Metacreators that uses NFTs to translate social capital into an asset class.',
+  title: 'Sway Protocol | Web3 social capital and reputation via staking',
+  description: 'Sway Protocol introduces the first proxy staking pools to establish trust, reputation and goodwil. Powered by $SWAY token.',
   url: 'https://swayprotocol.org',
   image: '/assets/og-image.png'
 };

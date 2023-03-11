@@ -1,12 +1,13 @@
 import Telegram from '/public/icons/Telegram.svg';
 import Twitter from '/public/icons/Twitter.svg';
 import Medium from '/public/icons/Medium.svg';
+import Link from 'next/link';
 
 export const Footer = () => (
   <footer className='footer-section'>
     <div className='container'>
       <div className='row'>
-        <div className='col-12 mb-3 d-flex justify-content-center align-items-center'>
+        <div className='col-12 d-flex justify-content-center align-items-center'>
           <a href='https://t.me/swayprotocol' target='_blank'>
             <Telegram height={48} width={48} />
           </a>
@@ -18,14 +19,13 @@ export const Footer = () => (
           </a>
         </div>
         <div className='col-12 d-flex flex-column flex-md-row justify-content-center align-items-center'>
-          <span>(c) 2021-{new Date().getFullYear()}.</span>
-          <span>Sway Protocol.</span>
-          <a href='#'>
+          <span>(c) 2021-{new Date().getFullYear()} Sway Protocol.</span>
+          <Link href='/terms'>
             <span>Terms and Conditions</span>
-          </a>
-          <a href='#'>
+          </Link>
+          <Link href='/privacy'>
             <span>Privacy Policy</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

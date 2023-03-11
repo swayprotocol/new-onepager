@@ -8,7 +8,7 @@
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500&display=swap');
 
-p, h1, h2, h3, h4 {
+p, h1, h2, h3, h4, span, a, button {
   font-family: 'Saira', sans-serif;
 }
 
@@ -48,9 +48,16 @@ button {
   background: #FFFFFF;
   border: 1px solid #000000;
 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+
 
   &:hover {
     background-color: #35FF92;
+    cursor: pointer;
   }
 
   .disabled {
@@ -58,19 +65,23 @@ button {
   }
 }
 
+a {
+  text-decoration: none;
+}
 
 .purple {
-  text-decoration: underline $purple;
-
+  text-decoration: underline solid $purple 4px;
+  text-underline-offset: 3px;
 }
 
 .green {
-  text-decoration: underline $green;
+  text-decoration: underline solid $green 4px;
+  text-underline-offset: 3px;
 }
 
 .hero-section {
   padding: 100px 0px 240px 0px;
-  background-image: url('/assets/Waves.png');
+  background-image: url('/assets/Waves.svg');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -336,8 +347,11 @@ button {
     margin: 8px 16px;
   }
 
+  svg {
+    margin: 4px 6px 16px 6px;
+  }
+
   a {
-    // margin: 8px 16px;
     text-decoration: underline;
     text-decoration-color: $dark;
   }
@@ -345,7 +359,7 @@ button {
 
 .sway-hero-section {
   padding: 100px 0px 240px 0px;
-  background-image: url('/assets/sway/Waves.png');
+  background-image: url('/assets/sway/Waves.svg');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -422,6 +436,36 @@ button {
 .sway-chains-section {
   padding: 72px 0px;
 
+  .listed-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 60px;
+    margin-top: 28px;
+    border: 1px solid #777777;
+
+    @media only screen and (max-width: 768px) {
+      padding: 16px 32px;
+    }
+
+    p {
+      position: absolute;
+      top: -14px;
+      left: -4px;
+      background-color: #FFFFFF;
+      font-family: 'Saira';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+      color: #212121;
+    }
+  }
+
+  img {
+    max-width: 150px;
+  }
+
   .table {
     color: $dark;
     font-weight: 400;
@@ -450,15 +494,15 @@ button {
 
 .sway-wave-section {
   margin: 50px 0px;
-  padding: 50px 0px 50px 0px;
-  background-image: url('/assets/sway/Waves-short.png');
+  padding: 80px 0px 80px 0px;
+  background-image: url('/assets/sway/Waves-short.svg');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sway-usecase-section {
-  padding: 72px 0px;
+  padding: 80px 0px;
 
   .item {
     height: 300px;
@@ -489,6 +533,17 @@ button {
     opacity: 0.35;
   }
 
+  .nextImage {
+    max-height: 120px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .nextImageMobile {
+    max-height: 40px;    
+  }
+
   .dotsContainer {
     display: flex;
     justify-content: space-between;
@@ -505,6 +560,10 @@ button {
     border-radius: 24px;
     background: #B0B0B0;
     margin: 4px;
+    
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .activeDot {
@@ -513,5 +572,39 @@ button {
     border-radius: 24px;
     background: #36FF93;
     margin: 4px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.privacyAndTerms{
+  h2 {
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    margin: 120px 0px 64px 0px;
+    @media only screen and (max-width: 992px) {
+      font-size: 40px;
+      margin: 64px 0px;
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .article {
+    margin-bottom: 56px;
   }
 }

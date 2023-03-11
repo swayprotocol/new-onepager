@@ -10,8 +10,8 @@ export const ProxyStaking = () => (
           <p>Other participants can stake tokens in these pools in order to earn rewards based on NFT sales and royalties from paired wallet. Consequently, with adding value to the pool they contribute in establishing <span className='purple'>social capital</span> for the wallet holder.</p>
         </div>
         <div className='col-12'>
-          <img className='d-none d-md-block' src='/assets/Proxy-staking.png' alt='Proxy staking'/>
-          <img className='d-bloc d-md-none' src='/assets/Proxy-staking-mobile.png' alt='Proxy staking'/>
+          <img className='d-none d-md-block' src='/assets/Proxy-staking.svg' alt='Proxy staking'/>
+          <img className='d-bloc d-md-none' src='/assets/Proxy-staking-mobile.svg' alt='Proxy staking'/>
         </div>
       </div>
     </div>
