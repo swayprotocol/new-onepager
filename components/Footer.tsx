@@ -7,7 +7,7 @@ export const Footer = () => (
   <footer className='footer-section'>
     <div className='container'>
       <div className='row'>
-        <div className='col-12 mb-3 d-flex justify-content-center align-items-center'>
+        <div className='col-12 d-flex justify-content-center align-items-center'>
           <a href='https://t.me/swayprotocol' target='_blank'>
             <Telegram height={48} width={48} />
           </a>
