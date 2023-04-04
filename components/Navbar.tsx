@@ -29,7 +29,7 @@ export const Navbar = () => {
               <span>GitHub</span>
             </Link>
             <Link href='/token' target='_blank'>
-              <span><img src='/assets/Sway-icon.png' width='15px' height='15px' />Token</span>
+              <span><img src='/assets/Sway-icon.jpg' width='15px' height='15px' />Token</span>
             </Link>
             
             <Link className='short' href='https://t.me/swayprotocol' target='_blank'>
