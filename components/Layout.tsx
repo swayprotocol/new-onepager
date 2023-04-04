@@ -32,8 +32,11 @@ const Layout = ({ children }: Props) => (
     <Head>
       <meta httpEquiv="content-type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-      <link rel="icon" href="/assets/favicon.png" type="image/png"/>
-      <link rel="apple-touch-icon" sizes="137x137" href="/assets/favicon-137x137.png"/>
+      <link rel="icon" href="/favicon-16x16.png" type="image/png"/>
+      <link rel="apple-touch-icon" sizes="16x16" href="/favicon-16x16.png"/>
+      <link rel="apple-touch-icon" sizes="32x32" href="/favicon-32x32.png"/>
+      <link rel="apple-touch-icon" sizes="96x96" href="/favicon-96x96.png"/>
+      <link rel="apple-touch-icon" sizes="192x192" href="/favicon-192x192.png"/>
 
       <title>{meta.title}</title>
       <meta name="description" content={meta.description}/>
