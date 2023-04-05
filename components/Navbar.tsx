@@ -22,14 +22,11 @@ export const Navbar = () => {
             <Link href='https://docsend.com/view/aacsc4tsb84pva53' target='_blank'>
               <span>Whitepaper</span>
             </Link>
-            <Link href='https://clout.art/' target='_blank'>
-              <span>Clout.art</span>
-            </Link>
             <Link href='https://github.com/swayprotocol' target='_blank'>
               <span>GitHub</span>
             </Link>
             <Link href='/token' target='_blank'>
-              <span><img src='/assets/Sway-icon.jpg' width='15px' height='15px' />Token</span>
+              <span><img src='/assets/sway/Sway-new.svg' width='15px' height='15px' />Token</span>
             </Link>
             
             <Link className='short' href='https://t.me/swayprotocol' target='_blank'>
