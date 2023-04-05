@@ -7,7 +7,7 @@ type Props = {
 }
 
 const meta = {
-  title: 'Sway Protocol | Web3 social capital and reputation via staking',
+  title: 'Sway Protocol: Proxy Staking Pools powered by NFT Revenue and Royalties',
   description: 'Sway Protocol introduces the first proxy staking pools to establish trust, reputation and goodwil. Powered by $SWAY token.',
   url: 'https://swayprotocol.org',
   image: '/assets/og-image.png'
