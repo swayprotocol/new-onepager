@@ -1,4 +1,5 @@
 import Layout from '../components/Layout';
+import { Toolbar } from '../components/Toolbar';
 import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/sway/Hero';
 import { Chains } from '../components/sway/Chains';
@@ -9,6 +10,7 @@ import { Footer } from '../components/Footer';
 
 const Token = () => (
   <Layout>
+    <Toolbar />
     <Navbar />
     <Hero />
     <Chains />
