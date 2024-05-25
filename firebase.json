@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "out",
-    "target": "new-swaysocial-onepager",
     "ignore": [
       "firebase.json",
       "**/.*",

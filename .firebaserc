@@ -1,17 +1,5 @@
 {
   "projects": {
-    "default": "swaysocial-one-pager",
-    "swaysocial-one-pager": "swaysocial-one-pager"
-  },
-  "targets": {
-    "swaysocial-one-pager": {
-      "new-swaysocial-onepager": "new-swaysocial-onepager",
-      "hosting": {
-        "new-swaysocial-onepager": [
-          "new-swaysocial-onepager"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "swaysocial-e27e0"
+  }
 }
